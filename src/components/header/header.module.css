@@ -1,0 +1,21 @@
+.header{
+    min-height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    color: white;
+    gap: 10px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px !important;
+}
+.links .link:hover{
+    color: yellow;
+}
