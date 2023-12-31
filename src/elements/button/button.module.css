@@ -1,6 +1,6 @@
 .button{
     padding: 10px;
-    background: blueviolet;
+    background: var(--color-primary);
     border-radius: 5px;
     color: black;
     outline: none;

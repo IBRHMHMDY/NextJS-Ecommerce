@@ -1,4 +1,9 @@
-
+:root{
+  --color-primary: #23D26F;
+  --color-alt: #1b914e;
+  --color-secondary: #bbb;
+  --simple-border-radius: 5px;
+}
 * {
   box-sizing: border-box;
   padding: 0;
