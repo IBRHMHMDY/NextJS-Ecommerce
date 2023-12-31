@@ -1,0 +1,25 @@
+.footer{
+    padding: 30px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    border-top: 1px solid #ddd;
+    height: 50px;
+
+}
+.footer .social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.social .icon{
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in;
+    cursor: pointer;
+}
+
+.social .icon:hover{
+    opacity: 1;
+}
