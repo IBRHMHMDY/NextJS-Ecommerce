@@ -18,7 +18,6 @@ export async function get_Products() {
 export default async function Products() {
   const data = await get_Products();
   const products = data.products;
-  console.log(products);
   return (
     <div className={styles.products}>
       {
