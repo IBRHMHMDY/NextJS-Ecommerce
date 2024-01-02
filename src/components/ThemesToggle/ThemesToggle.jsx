@@ -8,7 +8,7 @@ import { ThemesContext } from '@/context/ThemesContext'
 export default function ThemesToggle() {
 
   const {mode, toggle} = useContext(ThemesContext);
-  console.log(mode);
+
   return (
     <div className={styles.container} onClick={toggle} >
       <div className={styles.icon}  style={mode === 'dark' ? {opacity: 1} : {opacity: 0.5}}>

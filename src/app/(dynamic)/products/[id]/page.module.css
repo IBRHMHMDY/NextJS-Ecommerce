@@ -2,10 +2,8 @@
     padding: 15px;
 }
 
-.title{
-}
 
-.desc_short{
+.desc{
     font-size: 20px;
     margin-top: 5px;
 }
@@ -15,7 +13,7 @@
     height: 350px;
     margin: 25px 0;
 }
-.author{
+.brand{
     position: absolute;
     background-color: var(--color-primary);
     bottom: 0;
@@ -31,15 +29,29 @@
 }
 
 
-.desc_long{
-    font-size: 18px;
-    columns: 2;
-    text-align: justify;
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 20px;
 }
 
-
-
-
+.gallery{
+    padding: 10px 20px;
+    border: 1px solid #444;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.g_image{
+    border-radius: 15px;
+    cursor: pointer;
+}
 
 
 
