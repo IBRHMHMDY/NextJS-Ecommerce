@@ -1,0 +1,45 @@
+.container{
+    padding: 15px;
+}
+
+.title{
+}
+
+.desc_short{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.imageContainer{
+    position: relative;
+    height: 350px;
+    margin: 25px 0;
+}
+.author{
+    position: absolute;
+    background-color: var(--color-primary);
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: #000;
+    border-radius: 0 0 15px 0;
+    
+}
+.image{
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.desc_long{
+    font-size: 18px;
+    columns: 2;
+    text-align: justify;
+}
+
+
+
+
+
+
+
