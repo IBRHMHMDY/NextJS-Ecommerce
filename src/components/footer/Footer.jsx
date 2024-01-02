@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import styles from './footer.module.css';
-import { social_media } from "./social";
+import { social_media } from "./social_data";
 
 export default function Footer() {
 

@@ -1,5 +1,5 @@
 .logo{
     font-size: 36px;
     font-weight: 900;
-    color: yellow;
+    color: var(--color-primary);
 }
